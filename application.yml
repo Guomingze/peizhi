@@ -1,0 +1,21 @@
+server:
+  port: 9393
+spring:
+  application:
+    name: configs
+  cloud:
+    config:
+      enabled: false
+      server:
+        git:
+          uri: https://github.com/Guomingze/peizhi.git
+          username: 18403415216@163.com
+          password: guogithub123
+          basedir: C:\Users\NHX\Desktop\123
+          search-paths: /yml
+      label: master
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
