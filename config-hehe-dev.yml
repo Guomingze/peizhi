@@ -1,8 +1,1 @@
-spring:
-  thymeleaf:
-    cache: false
-    enabled: false
-  mvc:
-    view:
-      prefix: /jsp/
-      suffix: .jsp
+spring: 你好
